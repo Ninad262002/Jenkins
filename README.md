@@ -216,9 +216,9 @@ Different Java versions
 Different parameters
 
 Example:
-Java 8 + Linux
-Java 11 + Linux
-Java 17 + Windows
+Java 8 + Linux,
+Java 11 + Linux,
+Java 17 + Windows,
 
   📌 Use it when:
       You want to test across multiple configurations.
