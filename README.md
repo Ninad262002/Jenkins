@@ -243,7 +243,7 @@ It helps you:
 | Organization Folder  | Organize many jobs         |
 
 
-##Jenkins Plugins
+## Jenkins Plugins
 Jenkins is a robust automation server that can be customized to meet the unique demands of virtually any CI/CD workflow. One of the key reasons for its flexibility is the extensive ecosystem of plugins available, Jenkins plugins extend the core capabilities of Jenkins in multiple areas.
     Source Control Management
     Build Tools
@@ -253,14 +253,14 @@ Jenkins is a robust automation server that can be customized to meet the unique 
     Distributed Builds
 Plugins Directory  - cd /var/lib/jenkins/plugin
 
-##Plugins Installation Options
+## Plugins Installation Options
   Manual Selection
   Recommended Plugins
 
-##Controller Failure Freestyle Project
+## Controller Failure Freestyle Project
 Freestyle projects cannot resume after a controller failure, which is why Pipeline jobs are preferred for real-world CI/CD.
 
-##Jenkins Fingerprints
+## Jenkins Fingerprints
 Jenkins fingerprints are a powerful feature that allows you to track file usage across different jobs. This mechanism is especially useful when managing multiple interconnected projects. By recording fingerprints at the project level, Jenkins can identify which versions of a file are used throughout your builds. Essentially, the fingerprint is an MD5 checksum stored with metadata about which builds have utilized the file, without actually storing the file itself. You can review these details on the Jenkins home/fingerprints page.
 
 By following these steps, you can efficiently monitor and manage file dependencies in your Jenkins projects using fingerprints
